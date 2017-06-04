@@ -1,6 +1,20 @@
 Download & install Atom https://atom.io/
 Download & install Git https://git-scm.com/download/win
+Download & install AWS CLI https://s3.amazonaws.com/aws-cli/AWSCLI64.msi
 
+
+Configurar Git
+==============
+
+Abrir una ventana de Git sobre el directorio con el proyecto y hacer
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+* Si no va probar sin --global
+
+
+Configurar Atom para usar Git
+=============================
 En Atom:
 - Settings --> Install
   * Buscar git-plus ... instalarlo
@@ -26,3 +40,11 @@ Estas dos ultimas las he hecho desde la linea de comandos con git, con el git pl
 - git remote add origin https://github.com/amerinero/Repo1.git
 
 - git push -u origin master
+
+
+Configurar AWS CLI
+==================
+$ aws configure
+<Buscar en Dropbox el fichero excel con credenciales>
+<Buscar en el fichero el access key y el secretkey del usuario
+Como default zone poner eu-west-1 (creo que esta corresponde con Irlanda)
