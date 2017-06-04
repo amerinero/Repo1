@@ -1,0 +1,16 @@
+Download & install Atom https://atom.io/
+Download & install Git https://git-scm.com/download/win
+
+En Atom:
+- Settings --> Install
+  * Buscar git-plus ... instalarlo
+- En las opciones de configuración del paquete git-plus indicarle el path
+  hacia el Git. En mi caso C:\Program Files\Git\bin\git.exe
+  Ver video https://www.youtube.com/watch?v=7Id1_VfbEKo
+
+ - Para probar, sobre cualquier fichero abierto en Atom ctrl+shift+p -> Git Init
+ Deberia aparecer un mensaje diciendo que hemos iniciado un repo git en el directorio actual
+
+- Abrir una ventana de Git sobre el directorio con el proyecto y hacer
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
