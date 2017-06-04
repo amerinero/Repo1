@@ -14,3 +14,15 @@ En Atom:
 - Abrir una ventana de Git sobre el directorio con el proyecto y hacer
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
+
+* Si no va probar sin --global
+
+- git add * (desde el directorio del proyecto)
+
+- git commit
+
+Estas dos ultimas las he hecho desde la linea de comandos con git, con el git plus no iban
+
+- git remote add origin https://github.com/amerinero/Repo1.git
+
+- git push -u origin master
